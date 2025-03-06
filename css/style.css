@@ -14,3 +14,7 @@ main {
     margin: auto;
     padding: 2em;
 }
+.profile-image {
+    width: 200px; /* Remplacez par la largeur souhaitée */
+    height: auto; /* Conserve les proportions de l'image */
+}
