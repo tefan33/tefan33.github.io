@@ -160,10 +160,7 @@ button:hover {
 
 /* Styles pour les liens */
 
-a {
-    color: #3498db; /* Couleur des liens non visités */
-    text-decoration: none; /* Supprime le soulignement par défaut */
-}
+
 
 a:visited {
     color: #cbc7cc; /* Couleur des liens visités */
