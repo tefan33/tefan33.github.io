@@ -1,20 +1,187 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(224, 222, 222);
+    color: #333;
     margin: 0;
-    padding: 0;
-    line-height: 1.6;
 }
-header {
-    text-align: center;
-    padding: 2em;
-    background: #f8f9fa;
-}
+
 main {
-    max-width: 800px;
-    margin: auto;
-    padding: 2em;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
 }
+
+button {
+    background-color: #f7f6f5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f0f2f3;
+}
+
+.header {
+    
+    width: 100%; /* Réduit la largeur de l'en-tête */
+    max-width: 1400px; /* Limite la largeur maximale */
+    margin: 0 auto; /* Centre l'en-tête horizontalement */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px; /* Angles arrondis */
+}
+
+.header-left, .header-right {
+    flex: 1;
+    padding: 10px;
+    background-color: #2980b9;
+    color: rgb(235, 233, 233);
+    border-radius: 15px;
+}
+
+.header-center {
+    text-align: center;
+    flex: 1.5; /* Occupe plus d'espace pour centrer le contenu */
+}
+
+.header-center img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
 .profile-image {
-    width: 200px; /* Remplacez par la largeur souhaitée */
-    height: auto; /* Conserve les proportions de l'image */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+}
+
+.fixed-menu {
+    position: fixed;
+    color: white;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(44, 62, 80, 0.9);
+    padding: 10px 20px;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
+.fixed-menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fixed-menu a:hover {
+    text-decoration: underline;
+}
+
+.message-block {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.avenir-block {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Utilise toute la largeur disponible */
+    max-width: 1400px; /* Limite la largeur maximale */
+    padding: 0 20px; /* Ajoute un padding pour éviter que le contenu ne touche les bords */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    
+}
+
+.section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 10px;
+}
+
+.section .skill {
+    display: inline-block;
+    background-color: #486288; /* Couleur de fond pour les compétences */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+.highlight {
+    color: #486288; /* Couleur pour les icônes */
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+.section:hover {
+    background-color: #2980b9; /* Change la couleur de fond au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet de relief */
+}
+
+/* Styles pour les liens */
+
+a {
+    color: #3498db; /* Couleur des liens non visités */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+a:visited {
+    color: #cbc7cc; /* Couleur des liens visités */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne les liens au survol */
+}
+
+.bas_page {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }

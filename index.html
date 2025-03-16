@@ -1,29 +1,162 @@
 <!DOCTYPE html>
 <html lang="fr">
+<br>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <div class="fixed-menu">
+        <center>Navigation</center><br>
+        <a href="#section-haut">Présentation</a>
+        <a href="#section-milieu">Projets réalisés</a>
+        <a href="#section-bas">Projets à venir</a>
+    </div>
 </head>
-<body>
-    <header>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <img src="images/profil.png" alt="Photo de profil" class="profile-image">
+<body id="section-haut">
+    <header class="header">
+        <div class="header-left">
+            <h2><u>À Propos</u></h2>
+            <p><i class="fas fa-user"></i> Stéphan QUÉRU</p>
+            <p><i class="fa-solid fa-user-graduate"></i> Diplôme de Data Analyst : Wild Code School (2025)</p>
+            <p><i class="fa-solid fa-user-graduate"></i> Diplôme d'Analyste Programmeur : CESI (2002)</p>
+            <p><i class="fa-solid fa-graduation-cap"></i></i> Formation Management : FREE (2014)</p>
+        </div>
+        <div class="header-center">
+            <br><br><br><br>
+            <img src="images/profil.png" alt="Photo de profil">
+            <h1>Bienvenue sur mon Portfolio</h1>
+        </div>
+        <div class="header-right">
+            <h2><u>Contact</u></h2>
+            <p><i class="fas fa-envelope"></i> Email: Voir CV </p>
+            <p><i class="fas fa-phone"></i> Tel: Voir CV </p>
+            <p><i class="fa-regular fa-id-card"> : </i><a href="CV_QUERU%20_Stéphan.pdf" target="_blank"> CV </a></p>
+            <p><i class="fab fa-linkedin"> : </i><a href="https://www.linkedin.com/in/st%C3%A9phan-queru-1a26151b1/" target="_blank"> LinkedIn </a></p>
+            <p><i class="fab fa-github"> : </i><a href="https://github.com/tefan33" target="_blank"> GitHub </a></p>
+        </div>
+        
     </header>
+    <div style="height: 60px;"></div> <!-- Ajout de saut de ligne pour aérer le texte -->
+    <div class="message-block">
+        <H3><u>Présentation:</u></H3>
+        <p>Data analyst Junior curieux et volontaire, je suis actuellement à la recherche d'opportunités professionnelles et 
+            suis ouvert à toutes offres d'emploi dans le domaine de l'analyse et du traitement de données.</br>
+            Mon profil de manager peut être un atout dans un environnement où le travail collaboratif et la stratégie d'entreprise sont essentiels.<br></br>
+            Je suis motivé par les défis et passionné par l'idée de contribuer à des projets innovants au sein d'une équipe dynamique.</br>
+            N'hésitez pas à consulter les détails de mes projets et à me contacter pour discuter de potentielles collaborations.</br>  
+        </p>
+    </div>
+
+    <div id="section-haut" style="height: 60px;"></div>
+    <div class="message-block">
+        <H3><u>Compétences :</u></H3>
+        <div class="skill">
+            <span class="fas fa-database"> SQL -</span> 
+            <span class="fab fa-python"> Python -</span> 
+            <span class="fas fa-file-excel"> Excel -</span>
+            <span class="fas fa-chart-bar"> Power BI -</span>
+            <span class="fas fa-robot"> Machine Learning</span><br><br>
+            <span class="fas fa-chart-area"> Data Visualisation -</span>
+            <span class="fas fa-spider"> Web Scrapping -</span>
+            <span class="fas fa-laptop-code"> Developpement -</span>
+            <span class="fas fa-tasks"> Methodes Agile -</span>
+            <span class="fas fa-plug"> API</span><br><br>
+ 
+                  
+        </div>
+        <div>
+            <li>Python : Pandas, Numpy, StreamLit, Dash</li>
+            <li>Power BI : Dax, Modélisation</li>
+            <li>Machine Learning : Scikit-learn, régression, classification</li>
+            <li>Data Visualisation : Seaborn, Matplotlib, Plotly</li>
+            <li>Développement : Php, HTML, CSS</li>
+            <li>Méthode agile via Scrum et les daily/ sprint (Git et Trello utilisés)</li>
+        </div>
+    </div>
+
+    <div id="section-milieu" style="height: 60px;"></div>
     <main>
-        <section id="about">
-            <h2>À propos de moi</h2>
-            <p>Votre description ici...</p>
-            <a href="CV_QUERU_Stéphan.pdf" download>Télécharger mon CV</a>
-        </section>
-        <section id="projects">
-            <h2>Mes Projets</h2>
-            <ul>
-                <li><a href="projets/projet1.html">Projet 1</a></li>
-                <li><a href="projets/projet2.html">Projet 2</a></li>
-            </ul>
-        </section>
+        <H3><u><center>Projets réalisés:</center></u></H3>
+        
+        <div class="container">
+            <section class="section">
+                <center><u><B>Toy's & Model's Inc</B></u></center><br>
+                <center><img src="projets/Toys&models/BI_Toys.png" alt="Capture du PowerBi du projet" width="300" height="200"></center>
+                <br><br>
+                <i class="fas fa-pencil highlight"></i>
+                Création d'un tableau de bord data-driven pour optimiser la gestion de l'entreprise.
+                Ce tableau de bord permet de prendre des décisions éclairées en temps réel, 
+                en s'appuyant sur l'analyse des données de vente, 
+                des stocks et des préférences des clients.
+                <br><br><br>
+                <hr>
+                <center>
+                    <span class="skill">SQL</span>
+                    <span class="skill">PowerBI</span>
+                    <span class="skill">MySQL</span>
+                </center>
+                <hr>
+                <h3><u><b>Réalisations:</b></u></h3>
+                <i class="fas fa-arrow-right highlight"></i> Création de requètes SQL pour calculer des KPI.<br><br>
+                <i class="fas fa-arrow-right highlight"></i> Exploitation des requètes SQL pour modéliser les tables sous PowerBI.<br><br>
+                <i class="fas fa-arrow-right highlight"></i> Création d'un tableau de bord dynamique via PowerBI.<br><br>
+            
+                <h3><u><b>Visualisations:</b></u></h3>
+                <i class="fas fa-check-circle highlight"></i>Voici un PDF des vues du Dashboard réalisé : <a href="projets/Toys&models/BI_Toys.pdf" target="_blank">PDF</a>
+            </section>
+
+            <section class="section">
+                <center><u><B>Les Cinéphiles</B></u></center><br>
+                <center><img src="projets/LesCinephiles/image_directeur.png" alt="Capture de la vue Directeur du projet" width="300" height="200"></center>
+                <br><br>
+                <i class="fas fa-pencil highlight"></i>
+                Développement de deux sites web avec Python et Streamlit, 
+                utilisant le machine learning et pandas pour permettre à un directeur de cinéma 
+                et à ses utilisateurs de consulter des films selon divers critères.<br> 
+                Le projet, hébergé sur GitHub et Streamlit Cloud, 
+                facilite l'accès et l'analyse des données cinématographiques.
+                Pour les besoins de la présentation j'ai utilisé l'univers de Bruce Willis.
+                <br><br><br>
+                <hr>
+                <center>
+                    <span class="skill">Python</span>
+                    <span class="skill">API Tmdb</span>
+                    <span class="skill">Machine Learning</span>
+                    <span class="skill">StreamLit</span>
+                </center>
+                <hr>
+                <h3><u><b>Réalisations:</b></u></h3>
+                <i class="fas fa-arrow-right highlight"></i> Récupérartion et création de statistiques du cinéma dans la Creuse.<br><br>
+                <i class="fas fa-arrow-right highlight"></i> Récupérartion et nettoyage des données via l'API de TMDB et python.<br><br>
+                <i class="fas fa-arrow-right highlight"></i> Prédiction de films en utilisant le machine learning.<br><br>
+                <i class="fas fa-arrow-right highlight"></i> Réalisation de deux sites en Html/CSS via StreamLit.<br><br>
+            
+                <h3><u><b>Visualisations:</b></u></h3>
+                <i class="fas fa-check-circle highlight"></i>Site du directeur : <a href="https://lescinephiles.streamlit.app/" target="_blank">lescinephiles</a><br><br>
+                <i class="fas fa-check-circle highlight"></i>Site de l'utilisateur : <a href="https://lescinephiles-user.streamlit.app/" target="_blank">lescinephiles-user</a>
+            </section>
+        </div>
+        <!--<div id="section-milieu" class="container">
+            <section class="section">4</section>
+            <section class="section">5</section>
+            <section class="section">6</section>
+        </div>-->
     </main>
+    <div style="height: 60px;"></div>
+    <div id="section-bas" class="avenir-block">
+        <H3><u><center>Projets à venir:</center></u></H3>
+        <li>Projet perso : Réalisation d'un jeu avec Pygame et de la programmation objet --> En cours de finalisation.</li><br>
+        <li>Projet de formation : Réalisation d'un Dashboard sur les salaires en entreprise --> En cours de réflexion.</li><br>
+        <li>Datathon : La météo --> En cours de réflexion.</li><br>
+        <li>Projet de formation : Réalisation d'une application de gestion de la musique vis à vis de l'application spotify --> En cours d'élaboration.</li><br>
+        <li>Projet Perso : Création d'une application de gestion de la météo via différentes API --> En cours de réflexion.</li><br>
+    </div>
+    <div style="height: 60px;"></div>
+    <div id="section-bas" class="bas_page">
+        <p>Maj 03/2025 - Portfolio réalisé en Html & CSS via un repo GitHub.</p>
+    </div>
+    <div style="height: 60px;"></div>
 </body>
 </html>
