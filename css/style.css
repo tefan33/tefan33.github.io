@@ -27,6 +27,42 @@ button:hover {
     background-color: #f0f2f3;
 }
 
+/* Media Query pour les tablettes et les grands téléphones */
+@media (max-width: 1024px) {
+    main {
+        padding: 15px;
+    }
+
+    .header, .fixed-menu, .section, .message-block, .avenir-block, .bas_page {
+        padding: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Media Query pour les petits téléphones */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .header, .fixed-menu, .section, .message-block, .avenir-block, .bas_page {
+        padding: 10px;
+    }
+
+    .header-left, .header-right {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .header-center {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+}
+
 .header {
     
     width: 100%; /* Réduit la largeur de l'en-tête */
