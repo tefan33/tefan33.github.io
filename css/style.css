@@ -82,7 +82,7 @@ button:hover {
 .header-left, .header-right {
     flex: 1;
     padding: 10px;
-    background-color: #2980b9;
+    background-color: #2862ad;
     color: rgb(235, 233, 233);
     border-radius: 15px;
 }
@@ -136,7 +136,7 @@ button:hover {
     padding: 20px;
     text-align: center;
     width: 100%;
-    max-width: 1400px;
+    max-width: 900px;
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -190,7 +190,7 @@ button:hover {
 }
 
 .section:hover {
-    background-color: #2980b9; /* Change la couleur de fond au survol */
+    background-color: #2862ad; /* Change la couleur de fond au survol */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre pour un effet de relief */
 }
 
